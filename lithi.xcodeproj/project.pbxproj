@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A98C40920B72BF5000BE9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98C40820B72BF5000BE9C2 /* AppDelegate.swift */; };
+		6A98C40B20B72BF5000BE9C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98C40A20B72BF5000BE9C2 /* ViewController.swift */; };
+		6A98C40E20B72BF5000BE9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A98C40C20B72BF5000BE9C2 /* Main.storyboard */; };
+		6A98C41120B72BF5000BE9C2 /* lithi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A98C40F20B72BF5000BE9C2 /* lithi.xcdatamodeld */; };
+		6A98C41320B72BF6000BE9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A98C41220B72BF6000BE9C2 /* Assets.xcassets */; };
+		6A98C41620B72BF6000BE9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A98C41420B72BF6000BE9C2 /* LaunchScreen.storyboard */; };
+		6A98C42120B72BF6000BE9C2 /* lithiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98C42020B72BF6000BE9C2 /* lithiTests.swift */; };
+		6A98C42C20B72BF6000BE9C2 /* lithiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98C42B20B72BF6000BE9C2 /* lithiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A98C41D20B72BF6000BE9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A98C3FD20B72BF5000BE9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A98C40420B72BF5000BE9C2;
+			remoteInfo = lithi;
+		};
+		6A98C42820B72BF6000BE9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A98C3FD20B72BF5000BE9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A98C40420B72BF5000BE9C2;
+			remoteInfo = lithi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A98C40520B72BF5000BE9C2 /* lithi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lithi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A98C40820B72BF5000BE9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A98C40A20B72BF5000BE9C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A98C40D20B72BF5000BE9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A98C41020B72BF5000BE9C2 /* lithi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lithi.xcdatamodel; sourceTree = "<group>"; };
+		6A98C41220B72BF6000BE9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A98C41520B72BF6000BE9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A98C41720B72BF6000BE9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A98C41C20B72BF6000BE9C2 /* lithiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lithiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A98C42020B72BF6000BE9C2 /* lithiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lithiTests.swift; sourceTree = "<group>"; };
+		6A98C42220B72BF6000BE9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A98C42720B72BF6000BE9C2 /* lithiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lithiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A98C42B20B72BF6000BE9C2 /* lithiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lithiUITests.swift; sourceTree = "<group>"; };
+		6A98C42D20B72BF6000BE9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A98C40220B72BF5000BE9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A98C41920B72BF6000BE9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A98C42420B72BF6000BE9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A98C3FC20B72BF5000BE9C2 = {
+			isa = PBXGroup;
+			children = (
+				6A98C40720B72BF5000BE9C2 /* lithi */,
+				6A98C41F20B72BF6000BE9C2 /* lithiTests */,
+				6A98C42A20B72BF6000BE9C2 /* lithiUITests */,
+				6A98C40620B72BF5000BE9C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A98C40620B72BF5000BE9C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A98C40520B72BF5000BE9C2 /* lithi.app */,
+				6A98C41C20B72BF6000BE9C2 /* lithiTests.xctest */,
+				6A98C42720B72BF6000BE9C2 /* lithiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A98C40720B72BF5000BE9C2 /* lithi */ = {
+			isa = PBXGroup;
+			children = (
+				6A98C40820B72BF5000BE9C2 /* AppDelegate.swift */,
+				6A98C40A20B72BF5000BE9C2 /* ViewController.swift */,
+				6A98C40C20B72BF5000BE9C2 /* Main.storyboard */,
+				6A98C41220B72BF6000BE9C2 /* Assets.xcassets */,
+				6A98C41420B72BF6000BE9C2 /* LaunchScreen.storyboard */,
+				6A98C41720B72BF6000BE9C2 /* Info.plist */,
+				6A98C40F20B72BF5000BE9C2 /* lithi.xcdatamodeld */,
+			);
+			path = lithi;
+			sourceTree = "<group>";
+		};
+		6A98C41F20B72BF6000BE9C2 /* lithiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A98C42020B72BF6000BE9C2 /* lithiTests.swift */,
+				6A98C42220B72BF6000BE9C2 /* Info.plist */,
+			);
+			path = lithiTests;
+			sourceTree = "<group>";
+		};
+		6A98C42A20B72BF6000BE9C2 /* lithiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A98C42B20B72BF6000BE9C2 /* lithiUITests.swift */,
+				6A98C42D20B72BF6000BE9C2 /* Info.plist */,
+			);
+			path = lithiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A98C40420B72BF5000BE9C2 /* lithi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A98C43020B72BF6000BE9C2 /* Build configuration list for PBXNativeTarget "lithi" */;
+			buildPhases = (
+				6A98C40120B72BF5000BE9C2 /* Sources */,
+				6A98C40220B72BF5000BE9C2 /* Frameworks */,
+				6A98C40320B72BF5000BE9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lithi;
+			productName = lithi;
+			productReference = 6A98C40520B72BF5000BE9C2 /* lithi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A98C41B20B72BF6000BE9C2 /* lithiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A98C43320B72BF6000BE9C2 /* Build configuration list for PBXNativeTarget "lithiTests" */;
+			buildPhases = (
+				6A98C41820B72BF6000BE9C2 /* Sources */,
+				6A98C41920B72BF6000BE9C2 /* Frameworks */,
+				6A98C41A20B72BF6000BE9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A98C41E20B72BF6000BE9C2 /* PBXTargetDependency */,
+			);
+			name = lithiTests;
+			productName = lithiTests;
+			productReference = 6A98C41C20B72BF6000BE9C2 /* lithiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A98C42620B72BF6000BE9C2 /* lithiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A98C43620B72BF6000BE9C2 /* Build configuration list for PBXNativeTarget "lithiUITests" */;
+			buildPhases = (
+				6A98C42320B72BF6000BE9C2 /* Sources */,
+				6A98C42420B72BF6000BE9C2 /* Frameworks */,
+				6A98C42520B72BF6000BE9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A98C42920B72BF6000BE9C2 /* PBXTargetDependency */,
+			);
+			name = lithiUITests;
+			productName = lithiUITests;
+			productReference = 6A98C42720B72BF6000BE9C2 /* lithiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A98C3FD20B72BF5000BE9C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "James Hunt";
+				TargetAttributes = {
+					6A98C40420B72BF5000BE9C2 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					6A98C41B20B72BF6000BE9C2 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 6A98C40420B72BF5000BE9C2;
+					};
+					6A98C42620B72BF6000BE9C2 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 6A98C40420B72BF5000BE9C2;
+					};
+				};
+			};
+			buildConfigurationList = 6A98C40020B72BF5000BE9C2 /* Build configuration list for PBXProject "lithi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A98C3FC20B72BF5000BE9C2;
+			productRefGroup = 6A98C40620B72BF5000BE9C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A98C40420B72BF5000BE9C2 /* lithi */,
+				6A98C41B20B72BF6000BE9C2 /* lithiTests */,
+				6A98C42620B72BF6000BE9C2 /* lithiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A98C40320B72BF5000BE9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98C41620B72BF6000BE9C2 /* LaunchScreen.storyboard in Resources */,
+				6A98C41320B72BF6000BE9C2 /* Assets.xcassets in Resources */,
+				6A98C40E20B72BF5000BE9C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A98C41A20B72BF6000BE9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A98C42520B72BF6000BE9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A98C40120B72BF5000BE9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98C40B20B72BF5000BE9C2 /* ViewController.swift in Sources */,
+				6A98C41120B72BF5000BE9C2 /* lithi.xcdatamodeld in Sources */,
+				6A98C40920B72BF5000BE9C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A98C41820B72BF6000BE9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98C42120B72BF6000BE9C2 /* lithiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A98C42320B72BF6000BE9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98C42C20B72BF6000BE9C2 /* lithiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A98C41E20B72BF6000BE9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A98C40420B72BF5000BE9C2 /* lithi */;
+			targetProxy = 6A98C41D20B72BF6000BE9C2 /* PBXContainerItemProxy */;
+		};
+		6A98C42920B72BF6000BE9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A98C40420B72BF5000BE9C2 /* lithi */;
+			targetProxy = 6A98C42820B72BF6000BE9C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A98C40C20B72BF5000BE9C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A98C40D20B72BF5000BE9C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A98C41420B72BF6000BE9C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A98C41520B72BF6000BE9C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A98C42E20B72BF6000BE9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A98C42F20B72BF6000BE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A98C43120B72BF6000BE9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74EVD73P3D;
+				INFOPLIST_FILE = lithi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameshunt.lithi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A98C43220B72BF6000BE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74EVD73P3D;
+				INFOPLIST_FILE = lithi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameshunt.lithi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A98C43420B72BF6000BE9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74EVD73P3D;
+				INFOPLIST_FILE = lithiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameshunt.lithiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lithi.app/lithi";
+			};
+			name = Debug;
+		};
+		6A98C43520B72BF6000BE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74EVD73P3D;
+				INFOPLIST_FILE = lithiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameshunt.lithiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lithi.app/lithi";
+			};
+			name = Release;
+		};
+		6A98C43720B72BF6000BE9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74EVD73P3D;
+				INFOPLIST_FILE = lithiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameshunt.lithiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lithi;
+			};
+			name = Debug;
+		};
+		6A98C43820B72BF6000BE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74EVD73P3D;
+				INFOPLIST_FILE = lithiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jameshunt.lithiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lithi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A98C40020B72BF5000BE9C2 /* Build configuration list for PBXProject "lithi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A98C42E20B72BF6000BE9C2 /* Debug */,
+				6A98C42F20B72BF6000BE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A98C43020B72BF6000BE9C2 /* Build configuration list for PBXNativeTarget "lithi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A98C43120B72BF6000BE9C2 /* Debug */,
+				6A98C43220B72BF6000BE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A98C43320B72BF6000BE9C2 /* Build configuration list for PBXNativeTarget "lithiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A98C43420B72BF6000BE9C2 /* Debug */,
+				6A98C43520B72BF6000BE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A98C43620B72BF6000BE9C2 /* Build configuration list for PBXNativeTarget "lithiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A98C43720B72BF6000BE9C2 /* Debug */,
+				6A98C43820B72BF6000BE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A98C40F20B72BF5000BE9C2 /* lithi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A98C41020B72BF5000BE9C2 /* lithi.xcdatamodel */,
+			);
+			currentVersion = 6A98C41020B72BF5000BE9C2 /* lithi.xcdatamodel */;
+			path = lithi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A98C3FD20B72BF5000BE9C2 /* Project object */;
+}
